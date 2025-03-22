@@ -1,0 +1,58 @@
+body { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    margin: 20px; 
+    background-color: #f0f4f8; 
+    color: #333; 
+}
+h1 { 
+    color: #2c3e50; 
+    text-align: center; 
+    margin-bottom: 30px; 
+}
+.question { 
+    margin-bottom: 20px; 
+    padding: 20px; 
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    background-color: #ffffff; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+.error { 
+    color: #e74c3c; 
+    font-weight: bold; 
+}
+input[type="text"], textarea { 
+    width: 100%; 
+    padding: 12px; 
+    margin-top: 5px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    transition: border-color 0.3s; 
+}
+input[type="text"]:focus, textarea:focus {
+    border-color: rgb(129, 143, 44); 
+    outline: none; 
+}
+.checkbox-group, .radio-group { 
+    display: grid; 
+    grid-template-columns: auto 1fr; 
+    gap: 10px; 
+    align-items: center; 
+}
+.submit-btn { 
+    padding: 12px 25px; 
+    background-color: rgb(129, 143, 44); 
+    color: white; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    transition: background-color 0.3s, transform 0.2s; 
+}
+.submit-btn:hover { 
+    background-color: rgb(100, 120, 34); 
+    transform: translateY(-2px); 
+}
+.submit-btn:active { 
+    transform: translateY(0); 
+}
